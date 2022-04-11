@@ -1,0 +1,33 @@
+#imgbirthday {
+	max-width: 60%;
+	margin-bottom: calc(-1vh);
+}
+
+#chooseFormat {
+	margin: 20px auto;
+}
+
+#subHeaderHome {
+	margin-top: 20px;
+}
+#btnSubHeaderHome {
+	margin: 20px auto 30px;
+}
+
+@media (min-width: 576px) {
+	#imgbirthday {
+		margin-right: 10px;
+	}
+	#chooseFormat {
+		width: 230px;
+		height: 39px;
+		background-image: url("../img/choose_format.png");
+		margin: 30px auto 40px;
+	}
+	#subHeaderHome {
+		margin: -80px 200px 0;
+	}
+	#btnSubHeaderHome {
+		margin-top: 60px;
+	}
+}

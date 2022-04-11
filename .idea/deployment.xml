@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="wow.cards">
+    <serverData>
+      <paths name="laravel.d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wow.cards">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/web/wow.cards/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/web/wow.cards/public_html/.well-known" />
+            <excludedPath path="/web/wow.cards/public_html/_" />
+            <excludedPath path="/web/wow.cards/public_html/_demo" />
+            <excludedPath path="/web/wow.cards/public_html/_ru" />
+            <excludedPath path="/web/wow.cards/public_html/wp-admin" />
+            <excludedPath path="/web/wow.cards/public_html/wp-includes" />
+            <excludedPath path="/web/wow.cards/public_html/app/USERFILES" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/cache" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/ewww" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/languages" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/plugins" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/smush-webp" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/upgrade" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/uploads" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/uploads-webpc" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/w3tc-config" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/themes/twentytwentyone" />
+            <excludedPath path="/web/wow.cards/public_html/wp-content/themes/twentytwentytwo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.well-known" />
+            <excludedPath local="true" path="$PROJECT_DIR$/_" />
+            <excludedPath local="true" path="$PROJECT_DIR$/_demo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/_ru" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-admin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-includes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/app/USERFILES" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/ewww" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/languages" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/plugins" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/smush-webp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/upgrade" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/uploads" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/uploads-webpc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/w3tc-config" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentytwentyone" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/themes/twentytwentytwo" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

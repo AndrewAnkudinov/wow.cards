@@ -1,0 +1,1 @@
+<checkOrderResponse performedDatetime="2021-07-10T00:44:29.602+03:00" code="0" invoiceId="6400111140827" shopId="583571" orderNumber="778342fast" itemType="fast" orderSumAmount="99.00"/>
