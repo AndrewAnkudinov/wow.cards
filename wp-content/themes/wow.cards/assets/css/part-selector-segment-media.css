@@ -1,0 +1,110 @@
+.play-button {
+
+}
+
+#volumeMedia {
+	
+}
+
+#barMediaUser {
+	width: 100%;
+	width: calc(100% + 16px);
+	margin: auto;
+	position: absolute;
+	top: 0; left: -8px; bottom: 0; right: -8px;
+	z-index: 11;
+	/*
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	*/
+}
+/*
+#barMediaUser::-webkit-slider-thumb {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-color: red;
+	overflow: visible;
+	cursor: pointer;
+}
+*/
+
+#rangeMediaSegment {
+	margin-top: 8px;
+	background: rgba(79, 0, 116, 0.51);
+	height: 6px;
+	border-radius: 3px;
+	width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+#rangeMediaSegment:focus {
+	outline: none;
+}
+
+#rangeMediaSegment::-webkit-slider-thumb {
+	background: #4F0074;
+	/*border: 1px solid #1a1a1a;*/
+	cursor: pointer;
+	height: 22px;
+	border-radius: 10px;
+	text-indent: -9999px;
+	width: 50%;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+#waveformContainer {
+	position: relative;
+}
+
+
+
+#highlightAudioSegment {
+	z-index: 10;
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	backdrop-filter: hue-rotate(62deg) saturate(1000%);/*sepia(100%) hue-rotate(190deg) saturate(500%);*/
+	border: #F01E50 solid 3px;
+	border-width: 0 2px;
+}
+
+
+#volumeMediaUser {
+	background: linear-gradient(to right, #4F0074 0%, #4F0074 50%, rgba(79, 0, 116, 0.51) 50%, rgba(79, 0, 116, 0.51) 100%);
+	/*overflow-x: hidden;
+	margin-top: 8px;*/
+	height: 6px;
+	border-radius: 3px;
+	background: rgba(79, 0, 116, 0.51);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+#volumeMediaUser::-webkit-slider-thumb {
+	height: 14px;
+	width: 14px;
+	border-radius: 7px;
+	background: #4F0074;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/*box-shadow: -80px 0 0 80px #4F0074;*/
+}
+
+/*#editorMedia input[type="range"].rangeMediaSegment12::-webkit-slider-thumb { width: 12.333333333333334%;}*/
+
+/* Colors */
+i.fa, i.fas {
+	color: #4F0074;
+}
+
+.btn-light:hover i.fa, .btn-light:hover i.fas {
+	color: #FFFFFF!important;
+}
